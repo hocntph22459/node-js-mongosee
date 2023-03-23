@@ -1,0 +1,45 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "samsung",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "xiaomi",
+      "price": 190
+    },
+    {
+      "id": 3,
+      "name": "oppo",
+      "price": 180
+    },
+    {
+      "id": 4,
+      "name": "iphone",
+      "price": 200
+    },
+    {
+      "name": "samsung update",
+      "id": 5,
+      "price": 1000
+    },
+    {
+      "name": "samsung galaxy m20",
+      "id": 8,
+      "price": 500
+    },
+    {
+      "name": "xiaomi mới",
+      "price": 1900,
+      "id": 9
+    }
+  ],
+  "users" : [
+    {
+      "email" : "hoc@gmail.com",
+      "password" : 123456
+    }
+  ]
+}
