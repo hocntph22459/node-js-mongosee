@@ -1,5 +1,5 @@
 import joi from "joi"
-export const signupShema = joi.object({
+export const signinShema = joi.object({
     email:joi.string().email().required().messages({
         "string.base": `"email" phải là kiểu "text"`,
         "string.empty": `"email" không được bỏ trống`,
@@ -14,7 +14,7 @@ export const signupShema = joi.object({
     })
 })
 
-export const signinShema = joi.object({
+export const signupShema = joi.object({
     name:joi.string().required(),
     email:joi.string().email().required().messages({
         "string.base": `"email" phải là kiểu "text"`,
